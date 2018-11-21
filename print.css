@@ -1,0 +1,47 @@
+@media print {
+    
+    body {
+        font: 12pt Georgia, "Times New Roman", serif;
+        line-height: 1.3;
+    }
+    header:before {
+        display: block;
+        content: "Thank you printing the official Continuations Home Page!";
+        margin-bottom: 10px;
+        padding: 3px 5px;
+        font-style: italic;
+        border: 1px solid #bbb;
+        font-size: 11pt;;
+        
+    }
+    header {
+        border: none;
+        font-size: 46pt;
+        color: #222;
+    }
+    
+    .navbar, footer {
+        display: none;
+    }
+    
+    .intro h2 {
+        font-size: 30pt;
+    }
+    
+    .description h2 {
+        font-size: 30pt;
+    }
+    
+    .upcoming h2 {
+        font-variant: small-caps;
+        font-style: italic;
+        font-size: 34pt;
+    }
+    
+    p {font-size: 14pt;}
+    
+    
+    
+    
+    
+}
